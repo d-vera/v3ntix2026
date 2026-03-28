@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — V3ntix Software Solutions</title>
+  <meta name="description" content="Get in touch with V3ntix. Start your software project today — contact us for custom development, web apps, and IT consulting." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/styles/main.css" />
+</head>
+<body>
+  <div class="page-header">
+    <h1 data-i18n="contact_page.title">Contact Us</h1>
+    <p data-i18n="contact_page.subtitle">Ready to start your project? Get in touch and let's build something great</p>
+  </div>
+
+  <section class="section section-dark">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start;" id="contact-grid">
+        <!-- Contact Form -->
+        <div class="glass-card fade-in" style="padding: 2.5rem;">
+          <form id="contact-form" novalidate>
+            <div class="form-group">
+              <label class="form-label" data-i18n="contact_page.form_name">Full Name</label>
+              <input type="text" class="form-input" id="form-name" data-i18n="contact_page.form_name" required />
+              <p class="form-error" id="error-name" data-i18n="contact_page.form_error_required">This field is required</p>
+            </div>
+            <div class="form-group">
+              <label class="form-label" data-i18n="contact_page.form_email">Email Address</label>
+              <input type="email" class="form-input" id="form-email" data-i18n="contact_page.form_email" required />
+              <p class="form-error" id="error-email" data-i18n="contact_page.form_error_email">Please enter a valid email address</p>
+            </div>
+            <div class="form-group">
+              <label class="form-label" data-i18n="contact_page.form_service">Select a Service</label>
+              <select class="form-select" id="form-service" required>
+                <option value="" data-i18n="contact_page.form_service">Select a Service</option>
+                <option value="custom" data-i18n="contact_page.form_service_custom">Custom Software Development</option>
+                <option value="web" data-i18n="contact_page.form_service_web">Web Applications</option>
+                <option value="mobile" data-i18n="contact_page.form_service_mobile">Mobile Applications</option>
+                <option value="api" data-i18n="contact_page.form_service_api">API Integration</option>
+                <option value="consulting" data-i18n="contact_page.form_service_consulting">IT Consulting</option>
+              </select>
+              <p class="form-error" id="error-service" data-i18n="contact_page.form_error_required">This field is required</p>
+            </div>
+            <div class="form-group">
+              <label class="form-label" data-i18n="contact_page.form_message">Your Message</label>
+              <textarea class="form-textarea" id="form-message" data-i18n="contact_page.form_message" required></textarea>
+              <p class="form-error" id="error-message" data-i18n="contact_page.form_error_required">This field is required</p>
+            </div>
+            <button type="submit" class="btn-primary" style="width: 100%; justify-content: center;" data-i18n="contact_page.form_submit">Send Message</button>
+            <p id="form-success" style="display: none; color: #4ade80; text-align: center; margin-top: 1rem; font-weight: 500;" data-i18n="contact_page.form_success">Message sent successfully!</p>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="fade-in fade-in-delay-1">
+          <h3 style="color: white; font-size: 1.5rem; margin-bottom: 2rem;" data-i18n="contact_page.info_title">Contact Information</h3>
+          <div class="glass-card" style="padding: 2rem; margin-bottom: 1.5rem;">
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+              <div style="width: 48px; height: 48px; display: flex; align-items: center; justify-content: center; background: rgba(0,212,255,0.1); border-radius: 0.75rem; font-size: 1.25rem;">📧</div>
+              <div>
+                <p style="color: #64748b; font-size: 0.8rem;" data-i18n="contact_page.info_email_label">Email</p>
+                <p style="color: white; font-weight: 500;">info@v3ntix.com</p>
+              </div>
+            </div>
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+              <div style="width: 48px; height: 48px; display: flex; align-items: center; justify-content: center; background: rgba(0,212,255,0.1); border-radius: 0.75rem; font-size: 1.25rem;">📱</div>
+              <div>
+                <p style="color: #64748b; font-size: 0.8rem;" data-i18n="contact_page.info_phone_label">Phone</p>
+                <p style="color: white; font-weight: 500;">+591 70000000</p>
+              </div>
+            </div>
+            <div style="display: flex; align-items: center; gap: 1rem;">
+              <div style="width: 48px; height: 48px; display: flex; align-items: center; justify-content: center; background: rgba(0,212,255,0.1); border-radius: 0.75rem; font-size: 1.25rem;">📍</div>
+              <div>
+                <p style="color: #64748b; font-size: 0.8rem;" data-i18n="contact_page.info_location_label">Location</p>
+                <p style="color: white; font-weight: 500;">Cochabamba, Bolivia</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Social Links -->
+          <div class="glass-card" style="padding: 1.5rem;">
+            <div style="display: flex; gap: 1rem;">
+              <a href="https://www.linkedin.com/in/dennis-vera-ustariz-a10343147/" target="_blank" rel="noopener noreferrer" class="social-link" style="width: 48px; height: 48px;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </a>
+              <a href="https://github.com/d-vera" target="_blank" rel="noopener noreferrer" class="social-link" style="width: 48px; height: 48px;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    @media (max-width: 768px) {
+      #contact-grid {
+        grid-template-columns: 1fr !important;
+      }
+    }
+  </style>
+
+  <script type="module">
+    import { initPage } from '/src/js/components.js';
+    initPage();
+
+    // Form validation
+    const form = document.getElementById('contact-form');
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      let valid = true;
+
+      // Name
+      const name = document.getElementById('form-name');
+      const errorName = document.getElementById('error-name');
+      if (!name.value.trim()) {
+        errorName.classList.add('active');
+        valid = false;
+      } else {
+        errorName.classList.remove('active');
+      }
+
+      // Email
+      const email = document.getElementById('form-email');
+      const errorEmail = document.getElementById('error-email');
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!email.value.trim() || !emailRegex.test(email.value)) {
+        errorEmail.classList.add('active');
+        valid = false;
+      } else {
+        errorEmail.classList.remove('active');
+      }
+
+      // Service
+      const service = document.getElementById('form-service');
+      const errorService = document.getElementById('error-service');
+      if (!service.value) {
+        errorService.classList.add('active');
+        valid = false;
+      } else {
+        errorService.classList.remove('active');
+      }
+
+      // Message
+      const message = document.getElementById('form-message');
+      const errorMessage = document.getElementById('error-message');
+      if (!message.value.trim()) {
+        errorMessage.classList.add('active');
+        valid = false;
+      } else {
+        errorMessage.classList.remove('active');
+      }
+
+      if (valid) {
+        document.getElementById('form-success').style.display = 'block';
+        form.reset();
+        setTimeout(() => {
+          document.getElementById('form-success').style.display = 'none';
+        }, 5000);
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "team": "Team",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "Software Solutions",
+    "title": "We Transform Ideas Into Digital Solutions",
+    "description": "We develop custom software, web and mobile applications that drive your business forward. Technology tailored to your specific needs.",
+    "cta_contact": "Contact Us",
+    "cta_services": "Our Services"
+  },
+  "services_preview": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive software solutions designed to meet your business needs",
+    "custom_software": {
+      "title": "Custom Software",
+      "description": "Tailor-made software solutions designed specifically for your business processes and workflows."
+    },
+    "web_apps": {
+      "title": "Web Applications",
+      "description": "Modern, responsive web applications built with the latest technologies and best practices."
+    },
+    "mobile_apps": {
+      "title": "Mobile Apps",
+      "description": "Native and cross-platform mobile applications for Android and iOS devices."
+    },
+    "api_integration": {
+      "title": "API Integration",
+      "description": "Seamless integration of third-party services and APIs into your existing systems."
+    },
+    "it_consulting": {
+      "title": "IT Consulting",
+      "description": "Expert guidance to help you make informed technology decisions for your business."
+    }
+  },
+  "stats": {
+    "projects": "Projects Completed",
+    "clients": "Satisfied Clients",
+    "years": "Years of Experience",
+    "technologies": "Technologies"
+  },
+  "about_page": {
+    "title": "About Us",
+    "subtitle": "Get to know V3ntix and our mission",
+    "story_title": "Our Story",
+    "story_p1": "V3ntix was founded with a clear vision: to bridge the gap between business needs and technology solutions. Led by Dennis Vera, a Business Engineer and Full-Stack Developer, V3ntix brings a unique perspective that combines business strategy with technical excellence.",
+    "story_p2": "Based in Cochabamba, Bolivia, we serve clients locally and internationally, delivering custom software solutions that make a real impact on their operations and growth.",
+    "mission_title": "Our Mission",
+    "mission_text": "To empower businesses through innovative, high-quality software solutions that solve real problems and drive measurable results.",
+    "vision_title": "Our Vision",
+    "vision_text": "To become the trusted technology partner for businesses seeking to transform and grow through custom software solutions.",
+    "values_title": "Core Values",
+    "value_1_title": "Innovation",
+    "value_1_text": "We stay at the forefront of technology, constantly learning and adopting modern tools and practices.",
+    "value_2_title": "Quality",
+    "value_2_text": "Every line of code we write meets the highest standards. We believe in doing things right the first time.",
+    "value_3_title": "Transparency",
+    "value_3_text": "Open communication and honest relationships with our clients are the foundation of our work.",
+    "value_4_title": "Commitment",
+    "value_4_text": "We are committed to delivering on our promises and exceeding expectations in every project."
+  },
+  "services_page": {
+    "title": "Our Services",
+    "subtitle": "End-to-end software solutions to drive your business forward",
+    "custom_software": {
+      "title": "Custom Software Development",
+      "description": "We build tailor-made software solutions that perfectly fit your unique business processes. From requirements analysis to deployment and maintenance, we cover the entire software development lifecycle.",
+      "features": ["Requirements Analysis & Planning", "UI/UX Design", "Full-Stack Development", "Testing & Quality Assurance", "Deployment & Maintenance", "Ongoing Support"]
+    },
+    "web_apps": {
+      "title": "Web Applications",
+      "description": "Modern, responsive web applications built with cutting-edge frameworks and technologies. We create fast, secure, and scalable web solutions that work flawlessly across all devices.",
+      "features": ["React & Modern JavaScript", "Responsive Design", "Progressive Web Apps", "RESTful API Architecture", "Database Design", "Cloud Deployment"]
+    },
+    "mobile_apps": {
+      "title": "Mobile Applications",
+      "description": "Native Android applications and cross-platform solutions that deliver exceptional user experiences. We design and develop mobile apps that your users will love.",
+      "features": ["Native Android (Java/Kotlin)", "Cross-Platform Development", "UI/UX Mobile Design", "Push Notifications", "Offline Functionality", "App Store Deployment"]
+    },
+    "api_integration": {
+      "title": "API Integration",
+      "description": "Connect your systems with third-party services and build robust APIs that power your applications. We specialize in creating seamless integrations that streamline your workflows.",
+      "features": ["RESTful API Design", "Third-Party Integrations", "API Documentation (Swagger)", "Authentication & Security", "Data Synchronization", "Webhook Management"]
+    },
+    "it_consulting": {
+      "title": "IT Consulting",
+      "description": "Strategic technology guidance to help your business make informed decisions. We analyze your needs, recommend solutions, and create roadmaps for your digital transformation.",
+      "features": ["Technology Assessment", "Solution Architecture", "Digital Transformation Strategy", "Tech Stack Selection", "Process Optimization", "Training & Knowledge Transfer"]
+    }
+  },
+  "portfolio_page": {
+    "title": "Portfolio",
+    "subtitle": "Real projects, real solutions — explore our work",
+    "view_github": "View on GitHub",
+    "project_1": {
+      "title": "Textile Factory Management System",
+      "description": "A full-stack web application for managing textile factory operations, handling trailer logistics, shipment tracking, and production workflows.",
+      "tags": ["Full-Stack", "Web Application"]
+    },
+    "project_2": {
+      "title": "Buddy Gym — Fitness Tracker",
+      "description": "A comprehensive fitness tracking application with an Android frontend and Django REST API backend. Users can manage exercises by muscle group, log training sessions with weight, sets, and reps, view history with time-period filters, and track performance statistics.",
+      "tags": ["Android", "Java", "Django", "Python", "MySQL", "REST API", "JWT", "Swagger"]
+    },
+    "project_3": {
+      "title": "Cochabamba Tourism Guide",
+      "description": "A modern tourism guide for the city of Cochabamba, Bolivia. Features the top 10 tourist destinations with image carousels, towns to visit, and a contact form. Fully responsive with auto-playing image galleries.",
+      "tags": ["React 18", "Vite", "Tailwind CSS", "React Router", "JavaScript"]
+    }
+  },
+  "team_page": {
+    "title": "Meet the Founder",
+    "subtitle": "The person behind V3ntix Software Solutions",
+    "name": "Dennis Vera Ustariz",
+    "role": "Founder, Business Engineer & Full-Stack Developer",
+    "headline": "Web Developer | Enthusiast in React, JavaScript & Modern Web Technologies | Passionate About Frontend & Backend",
+    "bio": "Motivated and detail-oriented web development enthusiast with a strong interest in front-end technologies such as React and modern web design standards. Passionate about both frontend and backend development. With a background in Business Engineering from Universidad Católica Boliviana, Dennis brings a unique blend of business acumen and technical expertise to every project.",
+    "experience_title": "Experience",
+    "exp_1_role": "Web Developer",
+    "exp_1_company": "Metamorfo Digital",
+    "exp_1_period": "2025 — Present",
+    "exp_2_role": "Web Developer",
+    "exp_2_company": "Bélica Marketing",
+    "exp_2_period": "2021 — 2023",
+    "education_title": "Education & Certifications",
+    "edu_1_degree": "Business Engineering",
+    "edu_1_school": "Universidad Católica Boliviana",
+    "edu_1_period": "2010 — 2017",
+    "cert_1_name": "Learn to Program: The Fundamentals",
+    "cert_1_school": "University of Toronto",
+    "cert_1_year": "2025",
+    "skills_title": "Skills",
+    "location": "Cochabamba, Bolivia"
+  },
+  "contact_page": {
+    "title": "Contact Us",
+    "subtitle": "Ready to start your project? Get in touch and let's build something great",
+    "form_name": "Full Name",
+    "form_email": "Email Address",
+    "form_service": "Select a Service",
+    "form_service_custom": "Custom Software Development",
+    "form_service_web": "Web Applications",
+    "form_service_mobile": "Mobile Applications",
+    "form_service_api": "API Integration",
+    "form_service_consulting": "IT Consulting",
+    "form_message": "Your Message",
+    "form_submit": "Send Message",
+    "form_success": "Message sent successfully! We'll get back to you soon.",
+    "form_error_required": "This field is required",
+    "form_error_email": "Please enter a valid email address",
+    "info_title": "Contact Information",
+    "info_email": "info@v3ntix.com",
+    "info_phone": "+591 70000000",
+    "info_location": "Cochabamba, Bolivia",
+    "info_email_label": "Email",
+    "info_phone_label": "Phone",
+    "info_location_label": "Location"
+  },
+  "footer": {
+    "description": "Transforming ideas into digital solutions. Custom software development for businesses.",
+    "quick_links": "Quick Links",
+    "connect": "Connect",
+    "rights": "All rights reserved."
+  }
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>V3ntix — Software Solutions</title>
+  <meta name="description" content="V3ntix Software Solutions — Custom software development, web and mobile applications for businesses. Based in Cochabamba, Bolivia." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/styles/main.css" />
+</head>
+<body>
+  <!-- HERO SECTION -->
+  <section class="hero-gradient" id="hero" style="min-height: 100vh; display: flex; align-items: center; padding-top: 5rem;">
+    <div class="container" style="text-align: center;">
+      <p class="fade-in" style="color: var(--color-accent-400); font-family: var(--font-heading); font-weight: 600; font-size: 1rem; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 1.5rem;" data-i18n="hero.tagline">Software Solutions</p>
+      <h1 class="fade-in fade-in-delay-1" style="font-size: clamp(2.5rem, 5vw, 4rem); color: white; max-width: 800px; margin: 0 auto 1.5rem;" data-i18n="hero.title">We Transform Ideas Into Digital Solutions</h1>
+      <p class="fade-in fade-in-delay-2" style="font-size: 1.25rem; color: #94a3b8; max-width: 600px; margin: 0 auto 2.5rem;" data-i18n="hero.description">We develop custom software, web and mobile applications that drive your business forward. Technology tailored to your specific needs.</p>
+      <div class="fade-in fade-in-delay-3" style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="contact.html" class="btn-primary" data-i18n="hero.cta_contact">Contact Us</a>
+        <a href="services.html" class="btn-outline" data-i18n="hero.cta_services">Our Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES PREVIEW -->
+  <section class="section section-darker" id="services-preview">
+    <div class="container">
+      <h2 class="section-title fade-in" data-i18n="services_preview.title">Our Services</h2>
+      <p class="section-subtitle fade-in fade-in-delay-1" data-i18n="services_preview.subtitle">Comprehensive software solutions designed to meet your business needs</p>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem;">
+        <a href="services.html" class="glass-card fade-in fade-in-delay-1" style="padding: 2rem; text-decoration: none; text-align: center;">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem;">💻</div>
+          <h3 style="color: white; font-size: 1.125rem; margin-bottom: 0.75rem;" data-i18n="services_preview.custom_software.title">Custom Software</h3>
+          <p style="color: #94a3b8; font-size: 0.875rem;" data-i18n="services_preview.custom_software.description">Tailor-made software solutions designed specifically for your business processes and workflows.</p>
+        </a>
+        <a href="services.html" class="glass-card fade-in fade-in-delay-2" style="padding: 2rem; text-decoration: none; text-align: center;">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem;">🌐</div>
+          <h3 style="color: white; font-size: 1.125rem; margin-bottom: 0.75rem;" data-i18n="services_preview.web_apps.title">Web Applications</h3>
+          <p style="color: #94a3b8; font-size: 0.875rem;" data-i18n="services_preview.web_apps.description">Modern, responsive web applications built with the latest technologies and best practices.</p>
+        </a>
+        <a href="services.html" class="glass-card fade-in fade-in-delay-3" style="padding: 2rem; text-decoration: none; text-align: center;">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem;">📱</div>
+          <h3 style="color: white; font-size: 1.125rem; margin-bottom: 0.75rem;" data-i18n="services_preview.mobile_apps.title">Mobile Apps</h3>
+          <p style="color: #94a3b8; font-size: 0.875rem;" data-i18n="services_preview.mobile_apps.description">Native and cross-platform mobile applications for Android and iOS devices.</p>
+        </a>
+        <a href="services.html" class="glass-card fade-in fade-in-delay-4" style="padding: 2rem; text-decoration: none; text-align: center;">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem;">🔗</div>
+          <h3 style="color: white; font-size: 1.125rem; margin-bottom: 0.75rem;" data-i18n="services_preview.api_integration.title">API Integration</h3>
+          <p style="color: #94a3b8; font-size: 0.875rem;" data-i18n="services_preview.api_integration.description">Seamless integration of third-party services and APIs into your existing systems.</p>
+        </a>
+        <a href="services.html" class="glass-card fade-in" style="padding: 2rem; text-decoration: none; text-align: center;">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem;">🧠</div>
+          <h3 style="color: white; font-size: 1.125rem; margin-bottom: 0.75rem;" data-i18n="services_preview.it_consulting.title">IT Consulting</h3>
+          <p style="color: #94a3b8; font-size: 0.875rem;" data-i18n="services_preview.it_consulting.description">Expert guidance to help you make informed technology decisions for your business.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS COUNTER -->
+  <section class="section section-dark" id="stats">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: center;">
+        <div class="fade-in">
+          <div style="font-size: 3rem; font-weight: 700; color: var(--color-accent-400); font-family: var(--font-heading);" data-count="15" data-suffix="+">0</div>
+          <p style="color: #94a3b8; margin-top: 0.5rem;" data-i18n="stats.projects">Projects Completed</p>
+        </div>
+        <div class="fade-in fade-in-delay-1">
+          <div style="font-size: 3rem; font-weight: 700; color: var(--color-accent-400); font-family: var(--font-heading);" data-count="10" data-suffix="+">0</div>
+          <p style="color: #94a3b8; margin-top: 0.5rem;" data-i18n="stats.clients">Satisfied Clients</p>
+        </div>
+        <div class="fade-in fade-in-delay-2">
+          <div style="font-size: 3rem; font-weight: 700; color: var(--color-accent-400); font-family: var(--font-heading);" data-count="5" data-suffix="+">0</div>
+          <p style="color: #94a3b8; margin-top: 0.5rem;" data-i18n="stats.years">Years of Experience</p>
+        </div>
+        <div class="fade-in fade-in-delay-3">
+          <div style="font-size: 3rem; font-weight: 700; color: var(--color-accent-400); font-family: var(--font-heading);" data-count="12" data-suffix="+">0</div>
+          <p style="color: #94a3b8; margin-top: 0.5rem;" data-i18n="stats.technologies">Technologies</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script type="module">
+    import { initPage } from '/src/js/components.js';
+    import { initStatsCounter } from '/src/js/animations.js';
+    initPage();
+    requestAnimationFrame(() => initStatsCounter());
+  </script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — V3ntix Software Solutions</title>
+  <meta name="description" content="Learn about V3ntix, our mission, vision, and the values that drive our software development." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/styles/main.css" />
+</head>
+<body>
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <h1 data-i18n="about_page.title">About Us</h1>
+    <p data-i18n="about_page.subtitle">Get to know V3ntix and our mission</p>
+  </div>
+
+  <!-- STORY SECTION -->
+  <section class="section section-dark">
+    <div class="container" style="max-width: 800px;">
+      <h2 class="section-title fade-in" data-i18n="about_page.story_title">Our Story</h2>
+      <p class="fade-in fade-in-delay-1" style="color: #94a3b8; font-size: 1.1rem; margin-bottom: 1.5rem; text-align: center;" data-i18n="about_page.story_p1">V3ntix was founded with a clear vision: to bridge the gap between business needs and technology solutions. Led by Dennis Vera, a Business Engineer and Full-Stack Developer, V3ntix brings a unique perspective that combines business strategy with technical excellence.</p>
+      <p class="fade-in fade-in-delay-2" style="color: #94a3b8; font-size: 1.1rem; text-align: center;" data-i18n="about_page.story_p2">Based in Cochabamba, Bolivia, we serve clients locally and internationally, delivering custom software solutions that make a real impact on their operations and growth.</p>
+    </div>
+  </section>
+
+  <!-- MISSION & VISION -->
+  <section class="section section-darker">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+        <div class="glass-card fade-in" style="padding: 2.5rem; text-align: center;">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem;">🎯</div>
+          <h3 style="color: white; font-size: 1.5rem; margin-bottom: 1rem;" data-i18n="about_page.mission_title">Our Mission</h3>
+          <p style="color: #94a3b8; font-size: 1rem; line-height: 1.7;" data-i18n="about_page.mission_text">To empower businesses through innovative, high-quality software solutions that solve real problems and drive measurable results.</p>
+        </div>
+        <div class="glass-card fade-in fade-in-delay-1" style="padding: 2.5rem; text-align: center;">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem;">🔭</div>
+          <h3 style="color: white; font-size: 1.5rem; margin-bottom: 1rem;" data-i18n="about_page.vision_title">Our Vision</h3>
+          <p style="color: #94a3b8; font-size: 1rem; line-height: 1.7;" data-i18n="about_page.vision_text">To become the trusted technology partner for businesses seeking to transform and grow through custom software solutions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CORE VALUES -->
+  <section class="section section-dark">
+    <div class="container">
+      <h2 class="section-title fade-in" data-i18n="about_page.values_title">Core Values</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+        <div class="glass-card fade-in fade-in-delay-1" style="padding: 2rem; text-align: center;">
+          <div style="font-size: 2rem; margin-bottom: 0.75rem;">💡</div>
+          <h3 style="color: white; font-size: 1.125rem; margin-bottom: 0.5rem;" data-i18n="about_page.value_1_title">Innovation</h3>
+          <p style="color: #94a3b8; font-size: 0.9rem;" data-i18n="about_page.value_1_text">We stay at the forefront of technology, constantly learning and adopting modern tools and practices.</p>
+        </div>
+        <div class="glass-card fade-in fade-in-delay-2" style="padding: 2rem; text-align: center;">
+          <div style="font-size: 2rem; margin-bottom: 0.75rem;">⭐</div>
+          <h3 style="color: white; font-size: 1.125rem; margin-bottom: 0.5rem;" data-i18n="about_page.value_2_title">Quality</h3>
+          <p style="color: #94a3b8; font-size: 0.9rem;" data-i18n="about_page.value_2_text">Every line of code we write meets the highest standards. We believe in doing things right the first time.</p>
+        </div>
+        <div class="glass-card fade-in fade-in-delay-3" style="padding: 2rem; text-align: center;">
+          <div style="font-size: 2rem; margin-bottom: 0.75rem;">🤝</div>
+          <h3 style="color: white; font-size: 1.125rem; margin-bottom: 0.5rem;" data-i18n="about_page.value_3_title">Transparency</h3>
+          <p style="color: #94a3b8; font-size: 0.9rem;" data-i18n="about_page.value_3_text">Open communication and honest relationships with our clients are the foundation of our work.</p>
+        </div>
+        <div class="glass-card fade-in fade-in-delay-4" style="padding: 2rem; text-align: center;">
+          <div style="font-size: 2rem; margin-bottom: 0.75rem;">🔒</div>
+          <h3 style="color: white; font-size: 1.125rem; margin-bottom: 0.5rem;" data-i18n="about_page.value_4_title">Commitment</h3>
+          <p style="color: #94a3b8; font-size: 0.9rem;" data-i18n="about_page.value_4_text">We are committed to delivering on our promises and exceeding expectations in every project.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script type="module">
+    import { initPage } from '/src/js/components.js';
+    initPage();
+  </script>
+</body>
+</html>

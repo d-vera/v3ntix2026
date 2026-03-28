@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services — V3ntix Software Solutions</title>
+  <meta name="description" content="V3ntix offers custom software development, web & mobile applications, API integration, and IT consulting services." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/styles/main.css" />
+</head>
+<body>
+  <div class="page-header">
+    <h1 data-i18n="services_page.title">Our Services</h1>
+    <p data-i18n="services_page.subtitle">End-to-end software solutions to drive your business forward</p>
+  </div>
+
+  <section class="section section-dark">
+    <div class="container" style="display: flex; flex-direction: column; gap: 2rem;">
+      <!-- Custom Software -->
+      <div class="glass-card fade-in" style="padding: 2.5rem; display: grid; grid-template-columns: auto 1fr; gap: 2rem; align-items: start;" id="service-custom">
+        <div style="font-size: 3rem; width: 80px; height: 80px; display: flex; align-items: center; justify-content: center; background: rgba(0,212,255,0.08); border-radius: 1rem;">💻</div>
+        <div>
+          <h2 style="color: white; font-size: 1.5rem; margin-bottom: 0.75rem;" data-i18n="services_page.custom_software.title">Custom Software Development</h2>
+          <p style="color: #94a3b8; margin-bottom: 1.25rem; line-height: 1.7;" data-i18n="services_page.custom_software.description">We build tailor-made software solutions that perfectly fit your unique business processes.</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;" id="features-custom"></div>
+        </div>
+      </div>
+
+      <!-- Web Applications -->
+      <div class="glass-card fade-in fade-in-delay-1" style="padding: 2.5rem; display: grid; grid-template-columns: auto 1fr; gap: 2rem; align-items: start;" id="service-web">
+        <div style="font-size: 3rem; width: 80px; height: 80px; display: flex; align-items: center; justify-content: center; background: rgba(0,212,255,0.08); border-radius: 1rem;">🌐</div>
+        <div>
+          <h2 style="color: white; font-size: 1.5rem; margin-bottom: 0.75rem;" data-i18n="services_page.web_apps.title">Web Applications</h2>
+          <p style="color: #94a3b8; margin-bottom: 1.25rem; line-height: 1.7;" data-i18n="services_page.web_apps.description">Modern, responsive web applications built with cutting-edge frameworks.</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;" id="features-web"></div>
+        </div>
+      </div>
+
+      <!-- Mobile Apps -->
+      <div class="glass-card fade-in fade-in-delay-2" style="padding: 2.5rem; display: grid; grid-template-columns: auto 1fr; gap: 2rem; align-items: start;" id="service-mobile">
+        <div style="font-size: 3rem; width: 80px; height: 80px; display: flex; align-items: center; justify-content: center; background: rgba(0,212,255,0.08); border-radius: 1rem;">📱</div>
+        <div>
+          <h2 style="color: white; font-size: 1.5rem; margin-bottom: 0.75rem;" data-i18n="services_page.mobile_apps.title">Mobile Applications</h2>
+          <p style="color: #94a3b8; margin-bottom: 1.25rem; line-height: 1.7;" data-i18n="services_page.mobile_apps.description">Native Android applications and cross-platform solutions.</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;" id="features-mobile"></div>
+        </div>
+      </div>
+
+      <!-- API Integration -->
+      <div class="glass-card fade-in fade-in-delay-3" style="padding: 2.5rem; display: grid; grid-template-columns: auto 1fr; gap: 2rem; align-items: start;" id="service-api">
+        <div style="font-size: 3rem; width: 80px; height: 80px; display: flex; align-items: center; justify-content: center; background: rgba(0,212,255,0.08); border-radius: 1rem;">🔗</div>
+        <div>
+          <h2 style="color: white; font-size: 1.5rem; margin-bottom: 0.75rem;" data-i18n="services_page.api_integration.title">API Integration</h2>
+          <p style="color: #94a3b8; margin-bottom: 1.25rem; line-height: 1.7;" data-i18n="services_page.api_integration.description">Connect your systems with third-party services and build robust APIs.</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;" id="features-api"></div>
+        </div>
+      </div>
+
+      <!-- IT Consulting -->
+      <div class="glass-card fade-in fade-in-delay-4" style="padding: 2.5rem; display: grid; grid-template-columns: auto 1fr; gap: 2rem; align-items: start;" id="service-consulting">
+        <div style="font-size: 3rem; width: 80px; height: 80px; display: flex; align-items: center; justify-content: center; background: rgba(0,212,255,0.08); border-radius: 1rem;">🧠</div>
+        <div>
+          <h2 style="color: white; font-size: 1.5rem; margin-bottom: 0.75rem;" data-i18n="services_page.it_consulting.title">IT Consulting</h2>
+          <p style="color: #94a3b8; margin-bottom: 1.25rem; line-height: 1.7;" data-i18n="services_page.it_consulting.description">Strategic technology guidance to help your business make informed decisions.</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;" id="features-consulting"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script type="module">
+    import { initPage } from '/src/js/components.js';
+    import { t, getLanguage } from '/src/js/i18n.js';
+
+    initPage();
+
+    function renderFeatures() {
+      const services = ['custom_software', 'web_apps', 'mobile_apps', 'api_integration', 'it_consulting'];
+      const ids = ['features-custom', 'features-web', 'features-mobile', 'features-api', 'features-consulting'];
+      
+      services.forEach((service, i) => {
+        const container = document.getElementById(ids[i]);
+        if (!container) return;
+        const features = t(`services_page.${service}.features`);
+        if (Array.isArray(features)) {
+          container.innerHTML = features.map(f => `<span class="tech-tag">${f}</span>`).join('');
+        }
+      });
+    }
+
+    renderFeatures();
+    window.addEventListener('languageChanged', renderFeatures);
+  </script>
+</body>
+</html>

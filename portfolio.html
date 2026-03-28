@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — V3ntix Software Solutions</title>
+  <meta name="description" content="Explore V3ntix's portfolio of real software projects — from fitness apps to textile factory management systems." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/styles/main.css" />
+</head>
+<body>
+  <div class="page-header">
+    <h1 data-i18n="portfolio_page.title">Portfolio</h1>
+    <p data-i18n="portfolio_page.subtitle">Real projects, real solutions — explore our work</p>
+  </div>
+
+  <section class="section section-dark">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 2rem;">
+
+        <!-- Project 1: Textile Factory -->
+        <div class="glass-card fade-in" style="overflow: hidden;">
+          <div style="height: 200px; background: linear-gradient(135deg, #132e4a 0%, #1a3a5c 50%, #0f2847 100%); display: flex; align-items: center; justify-content: center;">
+            <div style="text-align: center;">
+              <div style="font-size: 3rem; margin-bottom: 0.5rem;">🏭</div>
+              <span style="color: var(--color-accent-300); font-family: var(--font-heading); font-size: 0.875rem;">Full-Stack Web App</span>
+            </div>
+          </div>
+          <div style="padding: 1.75rem;">
+            <h3 style="color: white; font-size: 1.25rem; margin-bottom: 0.75rem;" data-i18n="portfolio_page.project_1.title">Textile Factory Management System</h3>
+            <p style="color: #94a3b8; font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.25rem;" data-i18n="portfolio_page.project_1.description">A full-stack web application for managing textile factory operations, handling trailer logistics, shipment tracking, and production workflows.</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.25rem;" id="tags-project-1"></div>
+            <div style="display: flex; gap: 0.75rem;">
+              <a href="https://github.com/d-vera/trailer_backend" target="_blank" rel="noopener noreferrer" class="btn-outline" style="font-size: 0.85rem; padding: 0.5rem 1rem;">Backend</a>
+              <a href="https://github.com/d-vera/trailer_frontend" target="_blank" rel="noopener noreferrer" class="btn-outline" style="font-size: 0.85rem; padding: 0.5rem 1rem;">Frontend</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Buddy Gym -->
+        <div class="glass-card fade-in fade-in-delay-1" style="overflow: hidden;">
+          <div style="height: 200px; background: linear-gradient(135deg, #0f2847 0%, #1a3a5c 50%, #132e4a 100%); display: flex; align-items: center; justify-content: center;">
+            <div style="text-align: center;">
+              <div style="font-size: 3rem; margin-bottom: 0.5rem;">💪</div>
+              <span style="color: var(--color-accent-300); font-family: var(--font-heading); font-size: 0.875rem;">Android + Django API</span>
+            </div>
+          </div>
+          <div style="padding: 1.75rem;">
+            <h3 style="color: white; font-size: 1.25rem; margin-bottom: 0.75rem;" data-i18n="portfolio_page.project_2.title">Buddy Gym — Fitness Tracker</h3>
+            <p style="color: #94a3b8; font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.25rem;" data-i18n="portfolio_page.project_2.description">A comprehensive fitness tracking application with an Android frontend and Django REST API backend.</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.25rem;" id="tags-project-2"></div>
+            <div style="display: flex; gap: 0.75rem;">
+              <a href="https://github.com/d-vera/buddy_gym_app_frontend_2025" target="_blank" rel="noopener noreferrer" class="btn-outline" style="font-size: 0.85rem; padding: 0.5rem 1rem;">Android App</a>
+              <a href="https://github.com/d-vera/buddy_gym_app_backend_2025" target="_blank" rel="noopener noreferrer" class="btn-outline" style="font-size: 0.85rem; padding: 0.5rem 1rem;">Backend API</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Cochabamba Tourism -->
+        <div class="glass-card fade-in fade-in-delay-2" style="overflow: hidden;">
+          <div style="height: 200px; background: linear-gradient(135deg, #1a3a5c 0%, #0f2847 50%, #132e4a 100%); display: flex; align-items: center; justify-content: center;">
+            <div style="text-align: center;">
+              <div style="font-size: 3rem; margin-bottom: 0.5rem;">🏔️</div>
+              <span style="color: var(--color-accent-300); font-family: var(--font-heading); font-size: 0.875rem;">React + Tailwind CSS</span>
+            </div>
+          </div>
+          <div style="padding: 1.75rem;">
+            <h3 style="color: white; font-size: 1.25rem; margin-bottom: 0.75rem;" data-i18n="portfolio_page.project_3.title">Cochabamba Tourism Guide</h3>
+            <p style="color: #94a3b8; font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.25rem;" data-i18n="portfolio_page.project_3.description">A modern tourism guide for the city of Cochabamba, Bolivia.</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.25rem;" id="tags-project-3"></div>
+            <a href="https://github.com/d-vera/Cocha_tourism_guide_REACT_2025" target="_blank" rel="noopener noreferrer" class="btn-outline" style="font-size: 0.85rem; padding: 0.5rem 1rem;" data-i18n="portfolio_page.view_github">View on GitHub</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <script type="module">
+    import { initPage } from '/src/js/components.js';
+    import { t } from '/src/js/i18n.js';
+
+    initPage();
+
+    function renderTags() {
+      [1, 2, 3].forEach(i => {
+        const container = document.getElementById(`tags-project-${i}`);
+        if (!container) return;
+        const tags = t(`portfolio_page.project_${i}.tags`);
+        if (Array.isArray(tags)) {
+          container.innerHTML = tags.map(tag => `<span class="tech-tag">${tag}</span>`).join('');
+        }
+      });
+    }
+
+    renderTags();
+    window.addEventListener('languageChanged', renderTags);
+  </script>
+</body>
+</html>

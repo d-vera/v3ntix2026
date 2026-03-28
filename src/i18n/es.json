@@ -1,0 +1,170 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "team": "Equipo",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "tagline": "Soluciones de Software",
+    "title": "Transformamos Ideas en Soluciones Digitales",
+    "description": "Desarrollamos software a medida, aplicaciones web y móviles que impulsan tu negocio. Tecnología adaptada a tus necesidades específicas.",
+    "cta_contact": "Contáctanos",
+    "cta_services": "Nuestros Servicios"
+  },
+  "services_preview": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones integrales de software diseñadas para satisfacer las necesidades de tu negocio",
+    "custom_software": {
+      "title": "Software a Medida",
+      "description": "Soluciones de software personalizadas diseñadas específicamente para los procesos y flujos de trabajo de tu empresa."
+    },
+    "web_apps": {
+      "title": "Aplicaciones Web",
+      "description": "Aplicaciones web modernas y responsivas construidas con las últimas tecnologías y mejores prácticas."
+    },
+    "mobile_apps": {
+      "title": "Aplicaciones Móviles",
+      "description": "Aplicaciones móviles nativas y multiplataforma para dispositivos Android e iOS."
+    },
+    "api_integration": {
+      "title": "Integración de APIs",
+      "description": "Integración fluida de servicios de terceros y APIs en tus sistemas existentes."
+    },
+    "it_consulting": {
+      "title": "Consultoría IT",
+      "description": "Asesoramiento experto para ayudarte a tomar decisiones tecnológicas informadas para tu negocio."
+    }
+  },
+  "stats": {
+    "projects": "Proyectos Completados",
+    "clients": "Clientes Satisfechos",
+    "years": "Años de Experiencia",
+    "technologies": "Tecnologías"
+  },
+  "about_page": {
+    "title": "Nosotros",
+    "subtitle": "Conoce V3ntix y nuestra misión",
+    "story_title": "Nuestra Historia",
+    "story_p1": "V3ntix fue fundada con una visión clara: cerrar la brecha entre las necesidades empresariales y las soluciones tecnológicas. Liderada por Dennis Vera, Ingeniero Comercial y Desarrollador Full-Stack, V3ntix aporta una perspectiva única que combina estrategia empresarial con excelencia técnica.",
+    "story_p2": "Con sede en Cochabamba, Bolivia, servimos a clientes local e internacionalmente, entregando soluciones de software personalizadas que generan un impacto real en sus operaciones y crecimiento.",
+    "mission_title": "Nuestra Misión",
+    "mission_text": "Empoderar a las empresas a través de soluciones de software innovadoras y de alta calidad que resuelven problemas reales y generan resultados medibles.",
+    "vision_title": "Nuestra Visión",
+    "vision_text": "Convertirnos en el socio tecnológico de confianza para las empresas que buscan transformarse y crecer a través de soluciones de software personalizadas.",
+    "values_title": "Valores Fundamentales",
+    "value_1_title": "Innovación",
+    "value_1_text": "Nos mantenemos a la vanguardia de la tecnología, aprendiendo y adoptando constantemente herramientas y prácticas modernas.",
+    "value_2_title": "Calidad",
+    "value_2_text": "Cada línea de código que escribimos cumple con los más altos estándares. Creemos en hacer las cosas bien desde la primera vez.",
+    "value_3_title": "Transparencia",
+    "value_3_text": "La comunicación abierta y las relaciones honestas con nuestros clientes son la base de nuestro trabajo.",
+    "value_4_title": "Compromiso",
+    "value_4_text": "Estamos comprometidos con cumplir nuestras promesas y superar las expectativas en cada proyecto."
+  },
+  "services_page": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones de software integrales para impulsar tu negocio",
+    "custom_software": {
+      "title": "Desarrollo de Software a Medida",
+      "description": "Construimos soluciones de software personalizadas que se ajustan perfectamente a los procesos únicos de tu negocio. Desde el análisis de requerimientos hasta el despliegue y mantenimiento, cubrimos todo el ciclo de vida del desarrollo de software.",
+      "features": ["Análisis de Requerimientos y Planificación", "Diseño UI/UX", "Desarrollo Full-Stack", "Testing y Aseguramiento de Calidad", "Despliegue y Mantenimiento", "Soporte Continuo"]
+    },
+    "web_apps": {
+      "title": "Aplicaciones Web",
+      "description": "Aplicaciones web modernas y responsivas construidas con frameworks y tecnologías de última generación. Creamos soluciones web rápidas, seguras y escalables que funcionan perfectamente en todos los dispositivos.",
+      "features": ["React y JavaScript Moderno", "Diseño Responsivo", "Aplicaciones Web Progresivas", "Arquitectura API RESTful", "Diseño de Bases de Datos", "Despliegue en la Nube"]
+    },
+    "mobile_apps": {
+      "title": "Aplicaciones Móviles",
+      "description": "Aplicaciones nativas para Android y soluciones multiplataforma que ofrecen experiencias de usuario excepcionales. Diseñamos y desarrollamos apps móviles que tus usuarios amarán.",
+      "features": ["Android Nativo (Java/Kotlin)", "Desarrollo Multiplataforma", "Diseño UI/UX Móvil", "Notificaciones Push", "Funcionalidad Offline", "Publicación en App Store"]
+    },
+    "api_integration": {
+      "title": "Integración de APIs",
+      "description": "Conecta tus sistemas con servicios de terceros y construye APIs robustas que potencien tus aplicaciones. Nos especializamos en crear integraciones fluidas que optimizan tus flujos de trabajo.",
+      "features": ["Diseño de APIs RESTful", "Integraciones de Terceros", "Documentación de APIs (Swagger)", "Autenticación y Seguridad", "Sincronización de Datos", "Gestión de Webhooks"]
+    },
+    "it_consulting": {
+      "title": "Consultoría IT",
+      "description": "Asesoramiento tecnológico estratégico para ayudar a tu empresa a tomar decisiones informadas. Analizamos tus necesidades, recomendamos soluciones y creamos hojas de ruta para tu transformación digital.",
+      "features": ["Evaluación Tecnológica", "Arquitectura de Soluciones", "Estrategia de Transformación Digital", "Selección de Stack Tecnológico", "Optimización de Procesos", "Capacitación y Transferencia de Conocimiento"]
+    }
+  },
+  "portfolio_page": {
+    "title": "Portafolio",
+    "subtitle": "Proyectos reales, soluciones reales — explora nuestro trabajo",
+    "view_github": "Ver en GitHub",
+    "project_1": {
+      "title": "Sistema de Gestión para Fábrica Textil",
+      "description": "Una aplicación web full-stack para gestionar operaciones de una fábrica textil, manejo de logística de tráileres, seguimiento de envíos y flujos de producción.",
+      "tags": ["Full-Stack", "Aplicación Web"]
+    },
+    "project_2": {
+      "title": "Buddy Gym — Seguimiento Fitness",
+      "description": "Una aplicación completa de seguimiento fitness con frontend Android y backend Django REST API. Los usuarios pueden gestionar ejercicios por grupo muscular, registrar sesiones de entrenamiento con peso, series y repeticiones, ver historial con filtros por período y rastrear estadísticas de rendimiento.",
+      "tags": ["Android", "Java", "Django", "Python", "MySQL", "REST API", "JWT", "Swagger"]
+    },
+    "project_3": {
+      "title": "Guía Turística de Cochabamba",
+      "description": "Una guía turística moderna para la ciudad de Cochabamba, Bolivia. Presenta los 10 mejores destinos turísticos con carruseles de imágenes, pueblos para visitar y un formulario de contacto. Totalmente responsiva con galerías de imágenes con reproducción automática.",
+      "tags": ["React 18", "Vite", "Tailwind CSS", "React Router", "JavaScript"]
+    }
+  },
+  "team_page": {
+    "title": "Conoce al Fundador",
+    "subtitle": "La persona detrás de V3ntix Software Solutions",
+    "name": "Dennis Vera Ustariz",
+    "role": "Fundador, Ingeniero Comercial y Desarrollador Full-Stack",
+    "headline": "Desarrollador Web | Entusiasta de React, JavaScript y Tecnologías Web Modernas | Apasionado por Frontend y Backend",
+    "bio": "Entusiasta del desarrollo web, motivado y orientado al detalle, con un fuerte interés en tecnologías front-end como React y estándares modernos de diseño web. Apasionado tanto por el desarrollo frontend como backend. Con una formación en Ingeniería Comercial de la Universidad Católica Boliviana, Dennis aporta una combinación única de conocimiento empresarial y experiencia técnica a cada proyecto.",
+    "experience_title": "Experiencia",
+    "exp_1_role": "Desarrollador Web",
+    "exp_1_company": "Metamorfo Digital",
+    "exp_1_period": "2025 — Presente",
+    "exp_2_role": "Desarrollador Web",
+    "exp_2_company": "Bélica Marketing",
+    "exp_2_period": "2021 — 2023",
+    "education_title": "Educación y Certificaciones",
+    "edu_1_degree": "Ingeniería Comercial",
+    "edu_1_school": "Universidad Católica Boliviana",
+    "edu_1_period": "2010 — 2017",
+    "cert_1_name": "Learn to Program: The Fundamentals",
+    "cert_1_school": "University of Toronto",
+    "cert_1_year": "2025",
+    "skills_title": "Habilidades",
+    "location": "Cochabamba, Bolivia"
+  },
+  "contact_page": {
+    "title": "Contáctanos",
+    "subtitle": "¿Listo para iniciar tu proyecto? Ponte en contacto y construyamos algo grandioso",
+    "form_name": "Nombre Completo",
+    "form_email": "Correo Electrónico",
+    "form_service": "Selecciona un Servicio",
+    "form_service_custom": "Desarrollo de Software a Medida",
+    "form_service_web": "Aplicaciones Web",
+    "form_service_mobile": "Aplicaciones Móviles",
+    "form_service_api": "Integración de APIs",
+    "form_service_consulting": "Consultoría IT",
+    "form_message": "Tu Mensaje",
+    "form_submit": "Enviar Mensaje",
+    "form_success": "¡Mensaje enviado exitosamente! Nos pondremos en contacto pronto.",
+    "form_error_required": "Este campo es obligatorio",
+    "form_error_email": "Por favor ingresa un correo electrónico válido",
+    "info_title": "Información de Contacto",
+    "info_email": "info@v3ntix.com",
+    "info_phone": "+591 70000000",
+    "info_location": "Cochabamba, Bolivia",
+    "info_email_label": "Correo",
+    "info_phone_label": "Teléfono",
+    "info_location_label": "Ubicación"
+  },
+  "footer": {
+    "description": "Transformando ideas en soluciones digitales. Desarrollo de software a medida para empresas.",
+    "quick_links": "Enlaces Rápidos",
+    "connect": "Conectar",
+    "rights": "Todos los derechos reservados."
+  }
+}
