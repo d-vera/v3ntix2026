@@ -33,8 +33,8 @@ export function createFooter() {
         </div>
         <div class="footer-contact">
           <h4 data-i18n="footer.connect">Connect</h4>
-          <p>📧 info@v3ntix.com</p>
-          <p>📱 +591 70000000</p>
+          <p>📧 dennis.vera.u@gmail.com</p>
+          <p>📱 +591 70340323</p>
           <p>📍 Cochabamba, Bolivia</p>
         </div>
       </div>
